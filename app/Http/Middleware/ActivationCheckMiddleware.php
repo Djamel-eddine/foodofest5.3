@@ -18,8 +18,8 @@ class ActivationCheckMiddleware
     {
         $data = Helpers::requestSender();
         
-            return $next($request);
+        return $next($request);
         
-        // return redirect(base64_decode('aHR0cHM6Ly82YW10ZWNoLmNvbS9zb2Z0d2FyZS1hY3RpdmF0aW9u'));
+      
     }
 }
