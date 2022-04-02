@@ -29,7 +29,7 @@
                             <form method="POST" action="{{ route('purchase.code') }}">
                                 @csrf
                                 <div class="form-group">
-                                    <label for="purchase_code">Username</label>
+                                    <label for="purchase_code">Foodofest Username</label>
                                     <input type="text" value="{{env('BUYER_USERNAME')}}" class="form-control"
                                            id="username"
                                            name="username" required>

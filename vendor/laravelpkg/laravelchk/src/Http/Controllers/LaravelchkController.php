@@ -10,7 +10,7 @@ class LaravelchkController extends Controller
 {
     public function dmvf(Request $request)
     {
-        if (self::is_local()||true) {
+        if (self::is_local()) {
             session()->put(base64_decode('cHVyY2hhc2Vfa2V5'), $request[base64_decode('cHVyY2hhc2Vfa2V5')]);//pk
             session()->put(base64_decode('dXNlcm5hbWU='), $request[base64_decode('dXNlcm5hbWU=')]);//un
             return redirect()->route(base64_decode('c3RlcDM='));//s3
@@ -49,7 +49,7 @@ class LaravelchkController extends Controller
 
     public function actch()
     {
-        if (self::is_local()||true) {
+        if (self::is_local()) {
             return response()->json([
                 'active' => 1
             ]);
@@ -86,6 +86,6 @@ class LaravelchkController extends Controller
             || $_SERVER[base64_decode('SFRUUF9IT1NU')] == base64_decode('bG9jYWxob3N0')
             || substr($_SERVER[base64_decode('SFRUUF9IT1NU')], 0, 3) == '10.'
             || substr($_SERVER[base64_decode('SFRUUF9IT1NU')], 0, 7) == base64_decode('MTkyLjE2OA==')) return true;
-        return true;
+        return false;
     }
 }
