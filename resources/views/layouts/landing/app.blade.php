@@ -43,6 +43,18 @@
             text-decoration: underline;
         }
 
+        a{
+            color: #000;
+        }
+
+        .navbar-toggler:hover{
+            color: #000
+        }
+
+        .navbar-toggler:hover{
+            color: #ef7822
+        }
+
         /* .nav-item .dropdown .show>a  */
         .navbar-nav .show+a:first-child{
             color: #000000;
