@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-div {
-    border-bottom: 1px solid #585f6270;
+    border-bottom: 1px solid #585f6236;
     position: fixed;
     top: 0;
     border-bottom-left-radius: 0.75rem;
@@ -253,7 +253,7 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .navbar-div {
-        border-bottom: 1px solid #585f6270;
+        border-bottom: 1px solid #585f6236;
         position: fixed;
         top: 0;
         border-bottom-left-radius: 0.75rem;
@@ -500,7 +500,7 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .navbar-div {
-        border-bottom: 1px solid #585f6270;
+        border-bottom: 1px solid #585f6236;
         position: fixed;
         top: 0;
         border-bottom-left-radius: 0;
@@ -1248,9 +1248,10 @@ body {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-
-    color: white;
+    color: gray;
 }
+
+
 
 /* top section */
 .top-image img {

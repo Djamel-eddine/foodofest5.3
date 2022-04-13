@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="{{asset('public/assets/landing/css/main.css')}}">
     <style>
         a:hover {
-            color: #000000;
+            color: #ef7822;
             text-decoration: underline;
         }
 
