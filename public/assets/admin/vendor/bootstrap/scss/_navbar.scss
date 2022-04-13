@@ -277,14 +277,14 @@
 
     .navbar-nav {
         .nav-link {
-            color: $navbar-dark-hover-color;
+            color: $navbar-light-color;
 
             @include hover-focus() {
                 color: $primary-color;
             }
 
             &.disabled {
-                color: $navbar-dark-disabled-color;
+                color: $primary;
             }
         }
 

@@ -66,7 +66,7 @@
     @php($landing_page_links = \App\Models\BusinessSetting::where(['key'=>'landing_page_links'])->first())
     @php($landing_page_links = isset($landing_page_links->value)?json_decode($landing_page_links->value, true):null)
 <header>
-    <div class="navbar-div bg-color-primary">
+    <div class="navbar-div bg-color-white">
         <nav class="navbar navbar-expand-md">
             <div class="container">
                 <a class="navbar-brand" href="{{route('home')}}">

@@ -8,6 +8,8 @@ body {
 
 .navbar-div {
     border-bottom: 1px solid #585f6270;
+    position: fixed;
+    top: 0;
     border-bottom-left-radius: 0.75rem;
     border-bottom-right-radius: 0.75rem;
 }
@@ -251,8 +253,9 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .navbar-div {
-        border-bottom-width: 1px;
-        border-bottom-color: #585f62;
+        border-bottom: 1px solid #585f6270;
+        position: fixed;
+        top: 0;
         border-bottom-left-radius: 0.75rem;
         border-bottom-right-radius: 0.75rem;
     }
@@ -497,8 +500,9 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .navbar-div {
-        border-bottom-width: 1px;
-        border-bottom-color: #585f62;
+        border-bottom: 1px solid #585f6270;
+        position: fixed;
+        top: 0;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
