@@ -43,7 +43,7 @@
         }
 
         a:hover {
-            color: #ef7822;
+            color: #ef7822 !important;
             text-decoration: underline;
         }
         .navbar-toggler:hover{
