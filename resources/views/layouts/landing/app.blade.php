@@ -38,15 +38,14 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('public/assets/landing/css/main.css')}}">
     <style>
+        .navbar-font{
+            color: gray !important;
+        }
+
         a:hover {
             color: #ef7822;
             text-decoration: underline;
         }
-
-        a{
-            color: #000;
-        }
-
         .navbar-toggler:hover{
             color: #000
         }
