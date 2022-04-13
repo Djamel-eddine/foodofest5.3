@@ -38,13 +38,18 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('public/assets/landing/css/main.css')}}">
     <style>
-        .navbar-div{
-            border-bottom: 1px solid gray !important;
+        .navbar-div {
+            top: 0;
+            position: fixed;
+            right: 0;
+            left: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0,0,0,0.07) !important;
         }
         .navbar-font{
             color: #000000c0 !important;
             font-size: 18px !important;
-            font-weight: bold
+            font-weight: 500
         }
 
         a:hover {
