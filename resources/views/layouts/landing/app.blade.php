@@ -75,9 +75,9 @@
                           src="{{asset('storage/app/public/business/'.$logo)}}"
                           style="height:auto;width:100%; max-width:200px; max-height:60px">
                 </a>
-                <button style="background: #FFFFFF; border-radius: 2px;font-size: 13px" class="navbar-toggler" type="button"
+                <button style="border-radius: 2px;font-size: 18px" class="navbar-toggler" type="button"
                         data-toggle="collapse" data-target="#navbarNav">
-                   ....
+                   ...
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto"></ul>
