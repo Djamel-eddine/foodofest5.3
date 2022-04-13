@@ -12,7 +12,7 @@ body {
 }
 
 .top-start {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 /* **************************** media query*************************************** */
@@ -44,7 +44,7 @@ body {
         letter-spacing: 0.20000000298023224px;
     }
     .top-content {
-        margin-top: 30px;
+        margin-top: 60px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -284,7 +284,7 @@ body {
         letter-spacing: 0.20000000298023224px;
     }
     .top-content {
-        margin-top: 30px;
+        margin-top: 60px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -548,7 +548,7 @@ body {
         margin-bottom: 2.2rem;
     }
     .top-content {
-        margin-top: 30px;
+        margin-top: 60px;
         padding-left: 0;
         padding-right: 0;
     }
