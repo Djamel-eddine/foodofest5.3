@@ -40,7 +40,8 @@
     <style>
         .navbar-font{
             color: black !important;
-            font-size: 20px !important;
+            font-size: 18px !important;
+            font-weight: bold
         }
 
         a:hover {

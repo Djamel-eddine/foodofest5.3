@@ -7,9 +7,6 @@ body {
 }
 
 .navbar-div {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.5) !important;
-    position: fixed;
-    top: 0;
     border-bottom-left-radius: 0.75rem;
     border-bottom-right-radius: 0.75rem;
 }
@@ -253,9 +250,6 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .navbar-div {
-        border-bottom: 1px solid rgba(128, 128, 128, 0.5) !important;
-        position: fixed;
-        top: 0;
         border-bottom-left-radius: 0.75rem;
         border-bottom-right-radius: 0.75rem;
     }
@@ -500,9 +494,6 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .navbar-div {
-        border-bottom: 1px solid rgba(128, 128, 128, 0.5) !important;
-        position: fixed;
-        top: 0;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
@@ -1230,25 +1221,26 @@ body {
 /* nav section */
 .navbar-font-selected {
     font-family: Roboto;
-    font-size: 80px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 900;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
+
     color: white;
 }
 
 .navbar-font {
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 200;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-    color: gray;
-    font-weight: bold;
+
+    color: white;
 }
 
 /* top section */
@@ -1403,7 +1395,7 @@ body {
     color: black;
 }
 .bg-color-white {
-    background-color: #ffffff;
+    background-color: white;
     color: black;
 }
 p {
