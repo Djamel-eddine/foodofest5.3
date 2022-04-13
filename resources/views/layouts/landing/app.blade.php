@@ -39,7 +39,8 @@
     <link rel="stylesheet" href="{{asset('public/assets/landing/css/main.css')}}">
     <style>
         .navbar-font{
-            color: gray !important;
+            color: black !important;
+            font-size: 20px !important;
         }
 
         a:hover {

@@ -1230,7 +1230,7 @@ body {
 /* nav section */
 .navbar-font-selected {
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 900;
     line-height: 21px;
@@ -1241,13 +1241,14 @@ body {
 
 .navbar-font {
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 200;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
     color: gray;
+    font-weight: bold;
 }
 
 /* top section */
