@@ -44,14 +44,15 @@
             right: 0;
             left: 0;
             z-index: 1000;
-            box-shadow: 0px 0px 6px 2px #0000003c;
+            box-shadow: 0px 0px 5px 0px #00000029;
             border-bottom: 1px solid rgba(0,0,0,0.07) !important;
             
         }
         .navbar-font{
             color: #000000c0 !important;
             font-size: 18px !important;
-            font-weight: 500
+            font-weight: 500;
+            text-align: center
         }
 
         a:hover {
