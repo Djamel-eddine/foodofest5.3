@@ -83,7 +83,7 @@
         }
 
         #read_more_btn{
-            padding: auto 20px;
+            padding: auto 20px !important;
         }
 
         #read_more_btn:hover{
