@@ -44,7 +44,7 @@
             right: 0;
             left: 0;
             z-index: 1000;
-            box-shadow: 3px 6px 10px gray;
+            box-shadow: 0px 0px 6px 2px #0000003c;
             border-bottom: 1px solid rgba(0,0,0,0.07) !important;
             
         }
