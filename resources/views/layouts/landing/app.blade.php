@@ -46,6 +46,7 @@
             z-index: 1000;
             box-shadow: 0px 0px 5px 0px #00000029;
             border-bottom: 1px solid rgba(0,0,0,0.07) !important;
+            background: white;
             z-index: 100;
             
         }
