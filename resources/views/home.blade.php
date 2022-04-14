@@ -94,8 +94,8 @@
                                 </p>
                                 <div
                                     class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
-                                    <a href="{{route('about-us')}}"
-                                       class="btn btn-color-primary text-white rounded align-middle">{{__('messages.read_more')}}</a>
+                                    <a href="{{route('about-us')}}" id='read_more_btn'
+                                       class="btn btn-color-primary text-white rounded-lg align-middle px-2">{{__('messages.read_more')}}</a>
                                 </div>
                             </div>
                         </div>

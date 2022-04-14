@@ -81,6 +81,11 @@
         .dropdown-item.active, .dropdown-item:active {
             background: transparent;
         }
+
+        #read_more_btn:hover{
+            color: #fff !important;
+        }
+        
     </style>
     @stack('css_or_js')
 </head>
@@ -132,7 +137,7 @@
                             <a class="nav-link navbar-font dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{__('messages.join_us')}}
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right bg-color-primary" aria-labelledby="dropdownMenuButton">
+                            <div class="dropdown-menu dropdown-menu-right bg-color-white" aria-labelledby="dropdownMenuButton">
                                 @if($toggle_restaurant_registration)
                                     <a class="dropdown-item navbar-font" href="{{route('restaurant.create')}}">
                                         {{__('messages.restaurant_registration')}}
