@@ -44,7 +44,9 @@
             right: 0;
             left: 0;
             z-index: 1000;
+            box-shadow: 3px 6px 10px gray;
             border-bottom: 1px solid rgba(0,0,0,0.07) !important;
+            
         }
         .navbar-font{
             color: #000000c0 !important;
@@ -151,8 +153,10 @@
         </nav>
     </div>
 </header>
+<div style="margin-top: 86px">
+    @yield('content')
+</div>
 
-@yield('content')
 
 <footer>
     <div class="footer-div">

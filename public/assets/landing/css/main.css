@@ -11,10 +11,6 @@ body {
     border-bottom-right-radius: 0.75rem;
 }
 
-.top-start {
-    margin-top: 60px;
-}
-
 /* **************************** media query*************************************** */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -44,7 +40,7 @@ body {
         letter-spacing: 0.20000000298023224px;
     }
     .top-content {
-        margin-top: 60px;
+        margin-top: 30px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -284,7 +280,7 @@ body {
         letter-spacing: 0.20000000298023224px;
     }
     .top-content {
-        margin-top: 60px;
+        margin-top: 30px;
         padding-left: 0;
         padding-right: 0;
     }
@@ -548,7 +544,7 @@ body {
         margin-bottom: 2.2rem;
     }
     .top-content {
-        margin-top: 60px;
+        margin-top: 30px;
         padding-left: 0;
         padding-right: 0;
     }
