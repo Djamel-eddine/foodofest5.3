@@ -46,10 +46,9 @@
             z-index: 1000;
             box-shadow: 0px 0px 5px 0px #00000029;
             border-bottom: 1px solid rgba(0,0,0,0.07) !important;
-            background: rgba(255,255,255,0.8);
-            
             z-index: 100;
-            
+            backdrop-filter: blur(10px);
+            background: rgba(255,255,255,0.6);
         }
         .navbar-font{
             color: #000000c0 !important;
