@@ -82,6 +82,10 @@
             background: transparent;
         }
 
+        #read_more_btn{
+            padding: auto 20px;
+        }
+
         #read_more_btn:hover{
             color: #fff !important;
         }
