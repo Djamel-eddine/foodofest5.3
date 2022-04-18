@@ -22,20 +22,20 @@
                 <div class="container ">
                     <div class="row">
                         <div class="row col-lg-7 top-content">
-                            <div>
-                                <h3 class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
+                            <div data-aos="fade-right" class="d-flex justify-content-center justify-content-md-start">
+                                <h3 class="text-center text-md-left">
                                     {{isset($landing_page_text)?$landing_page_text['header_title_1']:''}}
                                 </h3>
                                 <span
-                                    class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
+                                    class="text-center text-md-left">
                                     {{isset($landing_page_text)?$landing_page_text['header_title_2']:''}}
                                 </span>
-                                <h4 class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
+                                <h4 class="text-center text-md-left">
                                     {{isset($landing_page_text)?$landing_page_text['header_title_3']:''}}
                                 </h4>
                             </div>
 
-                            <div class="download-buttons">
+                            <div class="download-buttons" data-aos="fade-right">
                                 @if($landing_page_links['app_url_android_status'])
                                 <div class="play-store">
                                     <a href="{{$landing_page_links['app_url_android']}}">
@@ -61,7 +61,7 @@
                         </div>
 
                         <div
-                            class="col-lg-5 d-flex justify-content-center justify-content-md-end text-center text-md-right top-image">
+                            class="col-lg-5 d-flex justify-content-center justify-content-md-end text-center text-md-right top-image" data-aos="zoom-out-up">
                             <img src="{{asset('public/assets/landing')}}/image/{{isset($landing_page_images)?$landing_page_images['top_content_image']:'double_screen_image.png'}}">
                         </div>
                     </div>
@@ -73,15 +73,15 @@
             <section class="about-us">
                 <div class="container">
                     <div class="row featured-section">
-                        <div class="col-12 featured-title-m">
+                        <div class="col-12 featured-title-m"  data-aos="fade-right">
                             <span>{{__('messages.about_us')}}</span>
                         </div>
                         <div
-                            class="col-lg-6 col-md-6  d-flex justify-content-center justify-content-md-start text-center text-md-left featured-section__image">
+                            class="col-lg-6 col-md-6  d-flex justify-content-center justify-content-md-start text-center text-md-left featured-section__image" data-aos="zoom-out-up">
                             <img src="{{asset('public/assets/landing')}}/image/{{isset($landing_page_images)?$landing_page_images['about_us_image']:'about_us_image.png'}}"></img>
                         </div>
                         <!-- <div class="col-lg-3 col-md-0"></div> -->
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6" data-aos="fade-left">
                             <div class="featured-section__content"
                                  class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
                                 <span>{{__('messages.about_us')}}</span>
@@ -112,7 +112,7 @@
                 <div class="container">
                     <div class="row choosing-section">
                         <div class="choosing-section__title">
-                            <div>
+                            <div data-aos="zoom-out-up">
                                 <h2>{{isset($landing_page_text)?$landing_page_text['why_choose_us']:''}}</h2>
                                 <span>{{isset($landing_page_text)?$landing_page_text['why_choose_us_title']:''}}</span>
                                 <hr class="customed-hr-1">
@@ -120,7 +120,7 @@
                         </div>
                         <div class="choosing-section__content">
                         @foreach ($speciality as $sp)
-                            <div>
+                            <div data-aos="fade-up">
                                 <div class="choosing-section__image-card">
                                     <img src="{{asset('public/assets/landing')}}/image/{{$sp['img']}}"></img>
                                 </div>
@@ -160,7 +160,7 @@
             @if($testimonial && count($testimonial)>0)
             <section class="trusted-customers">
                 <div class="container">
-                    <div class="trusted_customers__title">
+                    <div class="trusted_customers__title" data-aos="zoom-out-up">
                         <span class="trusted-customer mt-4" style="font-size: 33px">{{isset($landing_page_text)?$landing_page_text['testimonial_title']:''}}</span>
                     </div>
 

@@ -165,10 +165,10 @@
         </nav>
     </div>
 </header>
+
 <div style="margin-top: 86px">
     @yield('content')
 </div>
-
 
 <footer>
     <div class="footer-div">
