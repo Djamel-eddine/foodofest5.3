@@ -23,14 +23,14 @@
                     <div class="row">
                         <div class="row col-lg-7 top-content">
                             <div data-aos="fade-right" class="d-flex justify-content-center justify-content-md-start">
-                                <h3 class="text-center text-md-left">
+                                <h3 class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
                                     {{isset($landing_page_text)?$landing_page_text['header_title_1']:''}}
                                 </h3>
                                 <span
-                                    class="text-center text-md-left">
+                                    class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
                                     {{isset($landing_page_text)?$landing_page_text['header_title_2']:''}}
                                 </span>
-                                <h4 class="text-center text-md-left">
+                                <h4 class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
                                     {{isset($landing_page_text)?$landing_page_text['header_title_3']:''}}
                                 </h4>
                             </div>
