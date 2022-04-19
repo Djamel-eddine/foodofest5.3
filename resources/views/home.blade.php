@@ -21,16 +21,15 @@
             <section class="top-start">
                 <div class="container ">
                     <div class="row">
-                        <div class="row col-lg-7 top-content">
-                            <div data-aos="fade-right" 
+                        <div class="row col-lg-7 justify-content-center justify-content-md-start top-content" data-aos="fade-right" 
                                 data-aos-offset="200"
                                 data-aos-delay="50"
                                 data-aos-duration="1000"
                                 data-aos-fade="ease-in-out"
                                 data-aos-mirror="true"
                                 data-aos-once="false"
-                                data-aos-anchor-placement="top-bottom" 
-                                class="d-flex flex-row justify-content-center justify-content-md-start">
+                                data-aos-anchor-placement="top-bottom" >
+                            <div >
                                 <h3 class="d-flex justify-content-center justify-content-md-start text-center text-md-left">
                                     {{isset($landing_page_text)?$landing_page_text['header_title_1']:''}}
                                 </h3>
@@ -43,15 +42,7 @@
                                 </h4>
                             </div>
 
-                            <div class="download-buttons" 
-                                data-aos="fade-right"
-                                data-aos-offset="200"
-                                data-aos-delay="50"
-                                data-aos-duration="1000"
-                                data-aos-fade="ease-in-out"
-                                data-aos-mirror="true"
-                                data-aos-once="false"
-                                data-aos-anchor-placement="top-bottom" >
+                            <div class="download-buttons" >
                                 @if($landing_page_links['app_url_android_status'])
                                 <div class="play-store">
                                     <a href="{{$landing_page_links['app_url_android']}}">
